@@ -1,0 +1,22 @@
+# Ignore large dataset directories and archives
+MVSA_Single/
+MVSA_Multiple/
+my_folder/
+*.csv
+*.zip
+*.tar.gz
+
+# Ignore model checkpoints and large weight files
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Ignore Python virtual environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+.venv-1/
+venv/
+env/
+.ipynb_checkpoints/
